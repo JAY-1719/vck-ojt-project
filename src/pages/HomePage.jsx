@@ -1,5 +1,5 @@
-import Footer from "../components/Footer/Footer";
-import Header from "../components/Header/Header";
+import Footer1 from "../components/Footer/Footer";
+import Header from "../components/Header/Header"
 
 const HomePage = () => {
 
@@ -9,10 +9,10 @@ const HomePage = () => {
             
             <Header/>
                 <div className="content">
-                <div style={{marginTop:'50px',maxHeight:'76vh'}} className="page-container">
+                <div style={{marginTop:'50px',maxHeight:'66vh'}} className="page-container">
                 <div class="main-content-scrollable">
                 <div className="hero-section">
-                    <img alt="vivekanand college campus" className="hero-banner-image" src="images\vck.jpeg"></img>
+                    <img alt="vivekanand college campus" className="hero-banner-image" src="images\vck.jpg"></img>
                     <div className="hero-overlay-text">
                         <h1>Welcome to Vivekanand College!</h1>
                         <p id="z">Your journey to excellence starts here</p><br></br>
@@ -32,8 +32,8 @@ const HomePage = () => {
                     <li id="p"><strong>Strong Placements:</strong> Excellent career opportunities with leading companies.</li><br></br>
                 </ul>
                 <h1 id="h1">Campus Life & Facilities</h1><br></br>
-                <img id="i"src="images/vck3.jpeg"></img>
-                <img id="i"src="images/vck2.jpeg"></img><br></br>
+                <img id="i"src="images/vck2.jpg"></img>
+                <img id="i"src="images/vck3.jpg"></img><br></br>
                 <p id="p">Explore our vibrant campus and state-of-the-art facilities designed to enhance your learning experience and personal growth.</p>
                 <div className="call-to-action">
                     <p id="p">Ready to explorenour courses?</p>
@@ -44,7 +44,7 @@ const HomePage = () => {
                 </div>
                 </div>
                 </div>
-                <Footer/>               
+                <Footer1/>               
                 
         </div>
         
