@@ -18,7 +18,7 @@ const CoursesPage = () => {
                         <br />
                         <div className="video-container">
                             <video controls className="course-video" width="100%" height="100%">
-                                <source src="videos/college.mp4" type="video/mp4" />
+                                <source src="video/campus.mp4" type="video/mp4" />
                             </video>
                         </div>
                         <br />

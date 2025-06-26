@@ -8,7 +8,7 @@ const Footer = () =>{
 
             <footer>
                 <div style={{
-                    backgroundColor:"#rgb(82, 129, 113)",
+                    backgroundColor:"#rgb(68, 136, 113)",
                     height:"50px", bottom:"0", 
                     display:"flex",
                     
