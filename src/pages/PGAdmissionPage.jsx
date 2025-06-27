@@ -5,6 +5,7 @@ const PGAdmissionPage = () => {
         <div>
             <Header />
             <div className="content" style={{ background: "#2fd3d3", minHeight: "100vh", padding: "30px 0" }}>
+                <div ClassName="page-container">
                 <div style={{
                     background: "#fff",
                     borderRadius: "10px",
@@ -94,6 +95,7 @@ const PGAdmissionPage = () => {
                         &nbsp;directly.
                     </p>
                 </div>
+            </div>
             </div>
             <Footer/>
         </div>
