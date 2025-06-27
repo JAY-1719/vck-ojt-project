@@ -26,7 +26,7 @@ import { useState } from "react";
           show={showPopup}
           onClose={handleClosePopup}
           studentName="jay santosh jadhav"
-          studentPhotoUrl="/images/jay.jpeg" // Path to their photo
+          studentPhotoUrl="/images/jay2.jpeg" // Path to their photo
           uniqueMessage="Learned so much during this OJT! This app showcases my independent coding and deployment skills"
         />
       </div>
