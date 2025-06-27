@@ -1,6 +1,6 @@
 import Footer from "../components/footer/Footer";
 import Header from "../components/Header/Header"
-
+import { Link } from "react-router-dom";
 const HomePage = () => {
 
     return (
@@ -16,7 +16,7 @@ const HomePage = () => {
                     <div className="hero-overlay-text">
                         <h1>Welcome to Vivekanand College!</h1>
                         <p id="z">Your journey to excellence starts here</p><br></br>
-                        <a className="hero-btn" href="/admission" data-discover="true">Apply Now</a>
+                        <Link className="hero-btn" to="/admission" data-discover="true">Apply Now</Link>
 
                     </div>
                 
