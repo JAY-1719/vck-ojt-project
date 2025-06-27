@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import './Header.css';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -50,7 +51,7 @@ const Header = () => {
           <a href="/admission" className="apply-now-btn mobile">Apply Now</a>
         </nav>
         {/* Apply Now button for desktop */}
-        <a href="/admission" className="apply-now-btn desktop">Apply Now</a>
+        <Link to="/admission" className="apply-now-btn desktop">Apply Now</Link>
       </div>
     </header>
   );

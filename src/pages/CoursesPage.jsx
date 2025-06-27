@@ -1,5 +1,6 @@
 import Header from "../components/Header/Header";
 import Footer from "../components/footer/Footer";
+import {Link} from "react-router-dom";
 const CoursesPage = () => {
     return (
         <div>
@@ -110,9 +111,9 @@ const CoursesPage = () => {
                         <div className="call-to-action">
                             <p id="p">Have questions about a specific course?</p>
                             <br />
-                            <a className="primary-btn" href="/Contact" data-discover="true">
+                            <Link className="primary-btn" to="/Contact" data-discover="true">
                             Inquire About Courses
-                            </a>
+                            </Link>
                     </div>  </div>
                     </div>
                 </div>
